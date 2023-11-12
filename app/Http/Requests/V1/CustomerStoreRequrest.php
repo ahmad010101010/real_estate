@@ -24,11 +24,11 @@ class CustomerStoreRequrest extends FormRequest
     {
         return [
             'name'=>['required'],
-            'eamil'=>['required','email'],
+            'email'=>['required','email'],
             'type'=>['required',Rule::in(['I','B','i','b'])],
             'address'=>['required'],
             'city'=>['required'],
-            'stat'=>['required'],
+            'state'=>['required'],
             'postalCode'=>['required']
         ];
     }

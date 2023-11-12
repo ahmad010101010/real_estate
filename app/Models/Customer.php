@@ -12,7 +12,7 @@ class Customer extends Model
 
 
     protected $fillable=[
-        'name','eamil','type','address','city','stat','postal_code'
+        'name','email','type','address','city','state','postal_code'
     ];
 
 
